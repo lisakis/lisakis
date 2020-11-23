@@ -11,6 +11,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
 import { SideNavigationComponent } from './components/side-navigation/side-navigation.component';
 import { DashboardComponent } from './web/dashboard/dashboard.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { DashboardComponent } from './web/dashboard/dashboard.component';
     AppRoutingModule,
     NgbModule,
     CommonModule,
-    MatSidenavModule
+    MatSidenavModule,
+    ReactiveFormsModule
   ],
   exports: [
     MatSidenavModule,
